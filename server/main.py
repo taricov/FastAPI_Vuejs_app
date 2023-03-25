@@ -37,7 +37,7 @@ async def authenticate_user(username: str, password: str):
     return user
 
 # login handler
-@app.post("/login")
+@app.post("/token")
 async def genenrate_token(form_data: OAuth2PasswordRequestForm = Depends()):
     user = await authenticate_user(form_data.username, form_data.password)
 
