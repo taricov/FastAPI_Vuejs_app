@@ -1,0 +1,28 @@
+server/proj_ENV/*
+!server/proj_ENV/requirements.txt
+
+client/.DS_Store
+client/node_modules
+client/dist
+client/..git
+client/.git
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
