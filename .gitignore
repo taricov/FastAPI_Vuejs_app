@@ -1,6 +1,7 @@
 server/proj_ENV/*
 !server/proj_ENV/requirements.txt
 server/__pycache__
+server/.env
 
 client/.DS_Store
 client/node_modules
