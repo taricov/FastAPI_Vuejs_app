@@ -1,3 +1,4 @@
+import jwt
 from fastapi import FastAPI, Depends, HTTPException, status
 from fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm
 from typing import Union
@@ -82,7 +83,7 @@ register_tortoise(
 
 
 # testing routes depends on user auth
-@app.get("/items/{item_id}")
+@app.get("/api/v1/items/{item_id}")
 async def get_item(item_id: int, q: Union[str, None] = None, user:User_Pydantic = Depends(get_current_user)):
     return {"item_id": item_id, "q": q}
 
