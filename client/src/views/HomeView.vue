@@ -1,18 +1,18 @@
 <template>
-  <hello-world />
+  <search-bar />
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
 
 // Components
-import HelloWorld from "../components/HelloWorld.vue";
+import SearchBar from "../components/SearchBar.vue";
 
 export default defineComponent({
   name: "HomeView",
 
   components: {
-    HelloWorld,
+    SearchBar,
   },
 });
 </script>
