@@ -3,6 +3,7 @@ import App from "./App.vue";
 import router from "./router";
 import vuetify from "./plugins/vuetify";
 import "./assets/tailwind.css";
+import "flowbite"
 
 import { loadFonts } from "./plugins/webfontloader";
 
