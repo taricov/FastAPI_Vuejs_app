@@ -1,15 +1,13 @@
 <template>
   <v-container>
     <nav class="border-gray-200 px-2 sm:px-4 py-2.5 w-full">
-      <div
-        class="container flex items-center justify-between flex-wrap mx-auto"
-      >
-        <span class="">logo here</span>
+      <div class="w-fit container flex items-center flex-wrap mx-0">
+        <!-- <span class="">logo here</span> -->
         <!-- <SearchBar /> -->
-        <div class="flex items-center md:order-2">
+        <div class="flex items-center md:order-2 w-fit">
           <button
             type="button"
-            class="flex mr-3 text-sm bg-gray-800 rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600"
+            class="m-auto flex mr-3 text-sm bg-gray-800 rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600"
             id="user-menu-button"
             aria-expanded="false"
             data-dropdown-toggle="user-dropdown"
@@ -91,25 +89,24 @@
           </button>
         </div>
         <div
-          class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
+          class="m-0 items-center flex items-between md:flex md:order-1"
           id="mobile-menu-2"
         >
           <ul
-            class="flex flex-col grow p-4 mt-4 rounded-lg md:flex-row md:mt-0 md:text-sm md:font-medium"
+            class="flex flex-col p-4 mt-4 rounded-lg md:flex-row items-center justify-center md:flex-grow md:mt-0 md:text-sm md:font-medium"
           >
             <!-- <li class="w-40"></li> -->
             <li class="">
               <SearchBar />
             </li>
 
-            <li>
+            <li class="px-2 flex items-center justify-center">
               <a
                 href="#"
-                class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                class="block mb-2 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
               >
                 <svg
                   width="28"
-                  height="24"
                   viewBox="0 0 28 24"
                   xmlns="http://www.w3.org/2000/svg"
                 >
@@ -120,14 +117,13 @@
                 </svg>
               </a>
             </li>
-            <li>
+            <li class="flex items-center justify-center">
               <a
                 href="#"
                 class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
               >
                 <svg
                   width="19"
-                  height="20"
                   viewBox="0 0 19 20"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"

@@ -9,3 +9,7 @@
     background: linear-gradient(180deg, #2B2F53 3.16%, #1D1C34 36.05%);
 
 }
+
+.v-tab__slider{
+    @apply bg-red-600
+}

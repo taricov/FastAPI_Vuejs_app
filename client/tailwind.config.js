@@ -7,7 +7,12 @@ module.exports = {
   theme: {
 
     extend: {
-      // borderColor: ['focus'],
+      boxShadow: {
+        'bar-shadow': '0 30px 30px -20px #8671EC'
+      },
+      fontFamily: {
+        poppins: ['Poppins', "sans-serif"]
+      },
       colors: {
         prime: "#2B2F53",
         sec: "#2B2F53",
