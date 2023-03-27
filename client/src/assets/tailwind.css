@@ -3,3 +3,9 @@
 @tailwind components;
 
 @tailwind utilities;
+
+
+.dark-grad{
+    background: linear-gradient(180deg, #2B2F53 3.16%, #1D1C34 36.05%);
+
+}

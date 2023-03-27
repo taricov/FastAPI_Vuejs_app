@@ -1,6 +1,6 @@
 <template>
   <v-app class="dark">
-    <v-main>
+    <v-main class="dark-grad">
       <router-view />
     </v-main>
   </v-app>

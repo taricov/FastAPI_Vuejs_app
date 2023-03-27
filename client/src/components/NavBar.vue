@@ -1,9 +1,11 @@
 <template>
   <v-container>
-    <nav
-      class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 w-full dark:bg-gray-900"
-    >
-      <div class="container flex items-center justify-center flex-wrap mx-auto">
+    <nav class="border-gray-200 px-2 sm:px-4 py-2.5 w-full">
+      <div
+        class="container flex items-center justify-between flex-wrap mx-auto"
+      >
+        <span class="">logo here</span>
+        <!-- <SearchBar /> -->
         <div class="flex items-center md:order-2">
           <button
             type="button"
@@ -22,16 +24,16 @@
           </button>
           <!-- Dropdown menu -->
           <div
-            class="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700 dark:divide-gray-600"
+            class="z-50 hidden my-4 text-base list-none divide-y divide-gray-100 rounded-lg shadow dark:divide-gray-600"
             id="user-dropdown"
           >
             <div class="px-4 py-3">
               <span class="block text-sm text-gray-900 dark:text-white"
-                >Bonnie Green</span
+                >John Doe</span
               >
               <span
                 class="block text-sm font-medium text-gray-500 truncate dark:text-gray-400"
-                >name@flowbite.com</span
+                >example@gmail.com</span
               >
             </div>
             <ul class="py-2" aria-labelledby="user-menu-button">
@@ -39,7 +41,7 @@
                 <a
                   href="#"
                   class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
-                  >Dashboard</a
+                  >Profile</a
                 >
               </li>
               <li>
@@ -53,7 +55,7 @@
                 <a
                   href="#"
                   class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
-                  >Earnings</a
+                  >Favorites</a
                 >
               </li>
               <li>
@@ -93,9 +95,9 @@
           id="mobile-menu-2"
         >
           <ul
-            class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+            class="flex flex-col grow p-4 mt-4 rounded-lg md:flex-row md:mt-0 md:text-sm md:font-medium"
           >
-            <li class="w-40"></li>
+            <!-- <li class="w-40"></li> -->
             <li class="">
               <SearchBar />
             </li>
