@@ -1,6 +1,6 @@
 <template>
   <v-app class="dark">
-    <v-main class="dark-grad font-poppins">
+    <v-main class="pt-0 dark-grad font-poppins">
       <router-view />
     </v-main>
   </v-app>

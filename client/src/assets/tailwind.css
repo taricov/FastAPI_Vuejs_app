@@ -9,7 +9,51 @@
     background: linear-gradient(180deg, #2B2F53 3.16%, #1D1C34 36.05%);
 
 }
+.v-app-bar-nav-icon{
+    @apply text-white
+}
 
 .v-tab__slider{
-    @apply bg-red-600
+    /* @apply bg-transparent h-5 w-2 bg-gradient-to-t from-white to-transparent */
+    left: -100%;
+    height: 100%;
+    width: 300%;
+    background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255, 255, 255, 0.315) 0%, rgba(0,212,255,0) 76%);
+    /* box-shadow: 0px -10px 50px -30px #fff; */
+
+}
+.v-list-item__content{
+    @apply flex items-center space-x-2 w-full
+}
+
+.v-navigation-drawer{
+    @apply bg-transparent shadow-none dark:text-white
+}
+
+
+/* element.style {
+    top: 0px;
+    z-index: 1006;
+    transform: translateY(0%);
+    position: absolute;
+    left: 0px;
+    /* width: calc((100% - 0px) - 0px); 
+} 
+*/
+.v-app-bar.v-toolbar:not(.v-toolbar--flat){
+    @apply shadow-none bg-transparent
+}
+.v-navigation-drawer__scrim{
+    @apply bg-transparent
+
+}
+.v-btn__content{
+    @apply capitalize font-bold opacity-50
+}
+
+.v-slide-group__container{
+    border: 1px solid #ffffff32;
+    border-radius: 10px;
+    box-shadow: inset 0px -10px 50px -30px #8015A7;
 }
