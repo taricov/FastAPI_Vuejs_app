@@ -20,14 +20,14 @@
       <input
         type="text"
         placeholder="Explore"
-        class="rounded-full w-full py-3 pl-12 pr-4 dark:text-white border !border-slate-600 focus:!border-slate-400 outline-none transition-all duration-200 bg-gradient-to-b from-sec to-prime"
+        class="rounded-full w-full py-1 pl-12 pr-4 dark:text-white border !border-slate-600 focus:!border-slate-400 outline-none transition-all duration-200 bg-gradient-to-b from-sec to-prime"
       />
 
       <span
-        class="cursor-pointer rounded-full flex items-center justify-center absolute top-0 bottom-0 w-8 h-8 border my-auto text-gray-400 right-3 bg-gradient-to-t from-sec to-acc1 opacity-80 hover:opacity-100 transition-all duration-200"
+        class="cursor-pointer rounded-full flex items-center justify-center absolute top-0 bottom-0 w-6 h-6 my-auto text-gray-400 right-2 bg-gradient-to-t from-sec to-acc1 opacity-80 hover:opacity-100 transition-all duration-200"
       >
         <svg
-          width="11"
+          width="10"
           viewBox="0 0 13 18"
           fill="none"
           class="relative fill-white opacity-60"

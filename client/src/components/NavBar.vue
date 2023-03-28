@@ -5,18 +5,18 @@
       <div class="flex items-center md:order-2 w-fit">
         <button
           type="button"
-          class="m-auto flex mr-3 text-sm bg-gray-800 rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600"
+          class="m-auto mr-3 rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600 mt-3 pt-[.5] flex items-center justify-center text-xl w-8 h-8 text-white bg-[#22D7FF]"
           id="user-menu-button"
           aria-expanded="false"
           data-dropdown-toggle="user-dropdown"
           data-dropdown-placement="bottom"
         >
-          <span class="pt-2 flex items-center justify-center">
-            <span
-              class="pt-[.5] text-xl w-8 h-8 text-white rounded-full bg-[#22D7FF]"
-              >A</span
-            >
-          </span>
+          A
+          <!-- <span class="pt-2 flex items-center justify-center"> -->
+          <!-- <span
+            class="mt-3 pt-[.5] flex items-center justify-center text-xl w-8 h-8 text-white rounded-full bg-[#22D7FF]"
+            >A</span> -->
+          <!-- </span> -->
         </button>
         <!-- Dropdown menu -->
         <div

@@ -8,7 +8,7 @@ module.exports = {
 
     extend: {
       boxShadow: {
-        'bar-shadow': '0 30px 30px -20px #8671EC'
+        'bar-shadow': '0 30px 40px -30px #8671EC'
       },
       fontFamily: {
         poppins: ['Poppins', "sans-serif"]

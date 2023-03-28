@@ -57,3 +57,6 @@ background: radial-gradient(circle, rgba(255, 255, 255, 0.315) 0%, rgba(0,212,25
     border-radius: 15px;
     box-shadow: inset 0px -10px 50px -30px #8015A7;
 }
+/* .v-ripple__container{
+    @apply ;
+} */
