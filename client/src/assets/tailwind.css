@@ -54,6 +54,6 @@ background: radial-gradient(circle, rgba(255, 255, 255, 0.315) 0%, rgba(0,212,25
 
 .v-slide-group__container{
     border: 1px solid #ffffff32;
-    border-radius: 10px;
+    border-radius: 15px;
     box-shadow: inset 0px -10px 50px -30px #8015A7;
 }
