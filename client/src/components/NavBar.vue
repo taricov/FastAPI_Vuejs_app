@@ -5,7 +5,7 @@
       <div class="flex items-center md:order-2 w-fit">
         <button
           type="button"
-          class="m-auto mr-3 rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600 mt-3 pt-[.5] flex items-center justify-center text-xl w-8 h-8 text-white bg-[#22D7FF]"
+          class="m-auto mr-3 rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600 mt-3 pt-[.5] flex items-center justify-center text-md w-7 h-7 text-white bg-[#22D7FF]"
           id="user-menu-button"
           aria-expanded="false"
           data-dropdown-toggle="user-dropdown"
@@ -100,10 +100,10 @@
           <li class="px-2 flex items-center justify-center">
             <a
               href="#"
-              class="block mb-2 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+              class="block mb-1 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
             >
               <svg
-                width="28"
+                width="23"
                 viewBox="0 0 28 24"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -120,7 +120,7 @@
               class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
             >
               <svg
-                width="19"
+                width="15"
                 viewBox="0 0 19 20"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
