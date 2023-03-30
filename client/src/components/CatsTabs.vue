@@ -1,5 +1,5 @@
 <template>
-  <v-card class="pt-5 shadow-bar-shadow bg-transparent">
+  <v-card class="mx-5 pt-5 shadow-bar-shadow bg-transparent">
     <v-tabs class="inner__shadow text-white capitalize" center-active>
       <v-tab>All</v-tab>
       <v-tab>Gaming</v-tab>
