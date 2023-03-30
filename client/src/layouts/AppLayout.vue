@@ -46,12 +46,11 @@
         </svg>
       </v-toolbar-title>
     </v-app-bar>
-    <!-- <slot /> -->
+    <slot />
     <v-navigation-drawer
       v-model="drawer"
       absolute
       class="top-0 bg-gradient-to-b from-prime to-transparent"
-      temporary
     >
       <v-list nav dense>
         <v-list-item-group

@@ -2,25 +2,25 @@
   <nav-bar />
   <cats-tabs />
 
-  <v-row no-gutters>
-    <v-col
-      v-for="n in 6"
-      :key="n"
-      cols="12"
-      sm="4"
-      class="flex items-center justify-center"
-    >
-      <app-card
-        :title="cards[0].title"
-        :owner="cards[0].owner"
-        :date="cards[0].date"
-        :views="cards[0].views"
-        :img="cards[0].imgUrl"
-      />
-    </v-col>
-  </v-row>
-
-  <app-layout> </app-layout>
+  <app-layout>
+    <v-row no-gutters class="mt-4 pl-60">
+      <v-col
+        v-for="n in 6"
+        :key="n"
+        cols="12"
+        sm="4"
+        class="flex items-center justify-center"
+      >
+        <app-card
+          :title="cards[0].title"
+          :owner="cards[0].owner"
+          :date="cards[0].date"
+          :views="cards[0].views"
+          :img="cards[0].imgUrl"
+        />
+      </v-col>
+    </v-row>
+  </app-layout>
 </template>
 
 <script lang="ts">
