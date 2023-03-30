@@ -50,11 +50,12 @@
     <v-navigation-drawer
       v-model="drawer"
       absolute
-      class="top-0 bg-gradient-to-b from-prime to-transparent"
+      class="!w-60 rounded-tr-2xl rounded-br-2xl top-0 bg-gradient-to-b from-prime to-transparent"
     >
       <v-list nav dense>
         <v-list-item-group
           v-model="group"
+          class=""
           active-class="deep-purple--text text--accent-4"
         >
           <ListItem itemIcon="mdi-home" itemLabel="Home" />

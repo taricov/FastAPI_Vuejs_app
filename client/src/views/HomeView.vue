@@ -3,7 +3,7 @@
   <cats-tabs />
 
   <app-layout>
-    <v-row no-gutters class="mt-4 pl-60">
+    <v-row no-gutters class="mt-4 w-3/4 float-right">
       <v-col
         v-for="n in 6"
         :key="n"
